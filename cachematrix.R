@@ -30,7 +30,8 @@ inv <- NULL
 
 
 ## Write a short comment describing this function
-
+##This function creates a special "matrix" object that can cache its inverse.
+##caching the inverse of a matrix rather than computing it repeatedly
 cacheSolve <- function(x, ...) {
    ## Return a matrix that is the inverse of 'x'
    inv <- x$getInverse()
